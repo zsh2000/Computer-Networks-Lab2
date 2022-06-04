@@ -9,4 +9,4 @@ read_video.py读入处理前的视频，拆分出各帧
 
 得到机位切换的时间点后，用cal_displace.py对各视频片段进行crop (代码L15-16数组的第一个维度从0遍历到8)
 
-最后用make_video.py合成剪辑后的视频
+最后用make_video.py合成剪辑后的视频video_for_tiktok.mp4
