@@ -11,9 +11,9 @@ def my2str(i):
 
 anchor_frame = {}
 
-start_end_list = [(1,31), (36,71), (76,146), (151, 186), (191, 256), (261, 321), (326, 336), (341, 386), (391, 411)]
-start_frame = int(start_end_list[0][0])
-end_frame = int(start_end_list[0][1])
+start_end_list = [(1,31), (36,71), (76,146), (151, 186), (191, 256), (261, 321), (326, 336), (341, 386), (391, 411)]  # fill in the list according to the time stamps found by calculating L1 distance between adjacent frames
+start_frame = int(start_end_list[0][0])  # change from 0 to 8 on the first dimension
+end_frame = int(start_end_list[0][1])  # change from 0 to 8 on the first dimension
 anchor_interval = 5
 
 def cal(central_point):
